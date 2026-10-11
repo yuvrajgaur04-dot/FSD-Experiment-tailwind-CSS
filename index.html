@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusKart - College Shopping</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-red-50 text-slate-900">
+
+  <!-- Navbar -->
+  <nav class="bg-red-950 text-white px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+      Campus<span class="text-red-400">Kart</span>
+    </h1>
+
+    <div class="flex gap-6">
+      <a href="#products" class="hover:text-red-300">Shop</a>
+      <a href="#cart" class="hover:text-red-300">Cart (0)</a>
+    </div>
+  </nav>
+
+  <!-- Sale Banner -->
+  <section class="bg-red-600 text-white px-6 py-12 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-8">
+
+    <div>
+      <h2 class="text-4xl font-bold">College Sale</h2>
+
+      <p class="mt-3 text-red-100">
+        Up to 50% off on bags, books and more!
+      </p>
+
+      <a href="#products"
+         class="inline-block mt-6 bg-white text-red-950 px-6 py-3 rounded-lg font-bold hover:bg-red-100">
+        Shop Now
+      </a>
+    </div>
+
+    <img
+      src="https://placehold.co/300x200/ffffff/dc2626?text=50%25+OFF"
+      alt="College Sale"
+      class="w-64 rounded-xl shadow-lg">
+  </section>
+
+  <!-- Shopping Benefits -->
+  <section class="grid grid-cols-1 sm:grid-cols-3 gap-4 px-6 py-8 text-center">
+
+    <div class="bg-white p-5 rounded-lg shadow">
+      <p class="text-2xl font-bold text-red-600">Free</p>
+      <p class="text-slate-500">Delivery</p>
+    </div>
+
+    <div class="bg-white p-5 rounded-lg shadow">
+      <p class="text-2xl font-bold text-red-600">7-Day</p>
+      <p class="text-slate-500">Returns</p>
+    </div>
+
+    <div class="bg-white p-5 rounded-lg shadow">
+      <p class="text-2xl font-bold text-red-600">COD</p>
+      <p class="text-slate-500">Available</p>
+    </div>
+
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="px-6 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+    <!-- Product 1 -->
+    <div class="bg-white p-4 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+      <img src="https://placehold.co/400x300/fee2e2/991b1b?text=Backpack"
+           alt="Backpack" class="w-full rounded-lg">
+      <h3 class="font-bold mt-3">Backpack</h3>
+      <p class="mt-2 font-semibold">Rs. 799
+        <span class="text-slate-400 line-through text-sm">1299</span>
+      </p>
+      <button class="w-full bg-red-600 text-white py-2 mt-3 rounded-lg hover:bg-red-700">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="bg-white p-4 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+      <img src="https://placehold.co/400x300/fee2e2/991b1b?text=Notebooks"
+           alt="Notebooks" class="w-full rounded-lg">
+      <h3 class="font-bold mt-3">Notebook Set</h3>
+      <p class="mt-2 font-semibold">Rs. 199
+        <span class="text-slate-400 line-through text-sm">299</span>
+      </p>
+      <button class="w-full bg-red-600 text-white py-2 mt-3 rounded-lg hover:bg-red-700">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="bg-white p-4 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+      <img src="https://placehold.co/400x300/fee2e2/991b1b?text=Water+Bottle"
+           alt="Water Bottle" class="w-full rounded-lg">
+      <h3 class="font-bold mt-3">Water Bottle</h3>
+      <p class="mt-2 font-semibold">Rs. 349
+        <span class="text-slate-400 line-through text-sm">499</span>
+      </p>
+      <button class="w-full bg-red-600 text-white py-2 mt-3 rounded-lg hover:bg-red-700">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="bg-white p-4 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+      <img src="https://placehold.co/400x300/fee2e2/991b1b?text=Earphones"
+           alt="Earphones" class="w-full rounded-lg">
+      <h3 class="font-bold mt-3">Earphones</h3>
+      <p class="mt-2 font-semibold">Rs. 599
+        <span class="text-slate-400 line-through text-sm">999</span>
+      </p>
+      <button class="w-full bg-red-600 text-white py-2 mt-3 rounded-lg hover:bg-red-700">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="bg-white p-4 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+      <img src="https://placehold.co/400x300/fee2e2/991b1b?text=Hoodie"
+           alt="Hoodie" class="w-full rounded-lg">
+      <h3 class="font-bold mt-3">College Hoodie</h3>
+      <p class="mt-2 font-semibold">Rs. 899
+        <span class="text-slate-400 line-through text-sm">1499</span>
+      </p>
+      <button class="w-full bg-red-600 text-white py-2 mt-3 rounded-lg hover:bg-red-700">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="bg-white p-4 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+      <img src="https://placehold.co/400x300/fee2e2/991b1b?text=Calculator"
+           alt="Calculator" class="w-full rounded-lg">
+      <h3 class="font-bold mt-3">Scientific Calculator</h3>
+      <p class="mt-2 font-semibold">Rs. 499
+        <span class="text-slate-400 line-through text-sm">699</span>
+      </p>
+      <button class="w-full bg-red-600 text-white py-2 mt-3 rounded-lg hover:bg-red-700">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="bg-white p-4 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+      <img src="https://placehold.co/400x300/fee2e2/991b1b?text=Lunch+Box"
+           alt="Lunch Box" class="w-full rounded-lg">
+      <h3 class="font-bold mt-3">Lunch Box</h3>
+      <p class="mt-2 font-semibold">Rs. 299
+        <span class="text-slate-400 line-through text-sm">449</span>
+      </p>
+      <button class="w-full bg-red-600 text-white py-2 mt-3 rounded-lg hover:bg-red-700">
+        Add to Cart
+      </button>
+    </div>
+
+    <!-- Product 8 -->
+    <div class="bg-white p-4 rounded-xl shadow hover:shadow-xl hover:-translate-y-1 transition">
+      <img src="https://placehold.co/400x300/fee2e2/991b1b?text=Desk+Lamp"
+           alt="Desk Lamp" class="w-full rounded-lg">
+      <h3 class="font-bold mt-3">Study Lamp</h3>
+      <p class="mt-2 font-semibold">Rs. 399
+        <span class="text-slate-400 line-through text-sm">599</span>
+      </p>
+      <button class="w-full bg-red-600 text-white py-2 mt-3 rounded-lg hover:bg-red-700">
+        Add to Cart
+      </button>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-red-950 text-red-100 py-6 text-center">
+    <p>&copy; 2026 CampusKart</p>
+
+    <div class="flex justify-center gap-6 mt-3">
+      <a href="#" class="hover:text-white">About</a>
+      <a href="#" class="hover:text-white">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
